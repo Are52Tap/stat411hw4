@@ -1,0 +1,33 @@
+---
+title: "A Truly Great Title"
+author: "We Worked Hard on This"
+header-includes:
+    - \usepackage{setspace}\doublespacing
+output:
+  pdf_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE,
+                      include = TRUE,
+                      eval= TRUE
+                      )
+```
+
+## Introduction
+
+## Statistical Procedures Used
+
+## Summary of Statistical Findings
+
+## Scope of Inference
+
+## Appendix
+
+```{r}
+
+```
+
